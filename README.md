@@ -9,6 +9,7 @@ sudo ./setup.sh
 cd ~
 rm -rfv dot
 ```
+NOTE | Make sure to `chmod +x *.sh` in your scripts folder. Otherwise, the scripts won't run!
 
 At the end, you should be configured to do all that is necessary. 
 
