@@ -1,0 +1,3 @@
+~/.environment/scripts/run_all.sh &
+
+exec dwm
