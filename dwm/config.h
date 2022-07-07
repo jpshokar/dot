@@ -5,13 +5,25 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
+/*
+ 	
+ configuration: 
+
+*/
 static const char *fonts[]          = { "monospace:size=11" };
 static const char dmenufont[]       = "monospace:size=11";
+/* Background when normal */
 static const char col_gray1[]       = "#000000";
+/* Border when normal */
 static const char col_gray2[]       = "#444444";
+/* Foreground when normal */
 static const char col_gray3[]       = "#EC0000";
+/* Foreground when selected */
 static const char col_gray4[]       = "#ff0000";
+/* Background when selected
+* note(jpshokar): The name is just a relic of the previous template DWM configuration file. The name does not apply. */ 
 static const char col_cyan[]        = "#1c0000";
+/* Border when selected */
 static const char border_selected[] = "#0c0000";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
