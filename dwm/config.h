@@ -13,18 +13,18 @@ static const int topbar             = 0;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=11" };
 static const char dmenufont[]       = "monospace:size=11";
 /* Background when normal */
-static const char col_gray1[]       = "#000000";
+static const char col_gray1[]       = "#ffffff";
 /* Border when normal */
-static const char col_gray2[]       = "#444444";
+static const char col_gray2[]       = "#1c1c1c";
 /* Foreground when normal */
-static const char col_gray3[]       = "#EC0000";
+static const char col_gray3[]       = "#000000";
 /* Foreground when selected */
-static const char col_gray4[]       = "#ff0000";
+static const char col_gray4[]       = "#ffffff";
 /* Background when selected
 * note(jpshokar): The name is just a relic of the previous template DWM configuration file. The name does not apply. */ 
-static const char col_cyan[]        = "#1c0000";
+static const char col_cyan[]        = "#00000000";
 /* Border when selected */
-static const char border_selected[] = "#0c0000";
+static const char border_selected[] = "#2c2c2c";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
